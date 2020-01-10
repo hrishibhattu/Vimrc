@@ -1,5 +1,14 @@
 :set number relativenumber
 set expandtab
+
+" Enable Split windows
+set splitbelow
+set splitright
+
+" Enable folding
+set foldmethod = indent
+set foldlevel = 99
+
 set smarttab
 set shiftwidth=4
 set smartindent
@@ -35,6 +44,9 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Install L9 and avoid a Naming conflict if you've already installed a
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
+
+" Plugin to rectify extra folding
+Plugin 'tmhedberg/SimpylFold'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
