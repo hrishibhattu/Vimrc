@@ -33,7 +33,6 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo
 
 Plugin 'tpope/vim-fugitive'
-
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'file:///home/gmarik/path/to/plugin'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -47,3 +46,8 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 :inoremap { {<CR><BS>}<Esc>ko
 :inoremap ( ()<Esc>i
+" For more efficient split window
+:nnoremap <C-J> <C-W><C-J>
+:nnoremap <C-K> <C-W><C-K>
+:nnoremap <C-L> <C-W><C-L>
+:nnoremap <C-H> <C-W><C-H>
