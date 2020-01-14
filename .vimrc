@@ -6,8 +6,8 @@ set splitbelow
 set splitright
 
 " Enable folding
-set foldmethod = indent
-set foldlevel = 99
+set foldmethod=indent
+set foldlevel=99
 
 set smarttab
 set shiftwidth=4
@@ -37,6 +37,7 @@ Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'file:///home/gmarik/path/to/plugin'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'mattn/emmet-vim'
+Plugin 'dense-analysis/ale'
 
 " Plugin to rectify extra folding
 Plugin 'tmhedberg/SimpylFold'
