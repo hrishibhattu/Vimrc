@@ -44,9 +44,16 @@ Plugin 'tmhedberg/SimpylFold'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
+
+" For parenthesis, braces indentation
 filetype plugin indent on    " required
 :inoremap { {<CR><BS>}<Esc>ko
 :inoremap ( ()<Esc>i
+:inoremap " ""<Esc>i
+
+" For web-dev
+:iabbrev </ </<C-X><C-O>
+
 " For more efficient split window
 :nnoremap <C-J> <C-W><C-J>
 :nnoremap <C-K> <C-W><C-K>
