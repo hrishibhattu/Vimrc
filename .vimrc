@@ -41,6 +41,9 @@ Plugin 'dense-analysis/ale'
 " Plugin to rectify extra folding
 Plugin 'tmhedberg/SimpylFold'
 
+" Plugin for CtrlP (used for easy navigation)
+Plugin 'kien/ctrlp.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
