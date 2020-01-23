@@ -52,6 +52,7 @@ filetype plugin indent on    " required
 :inoremap { {<CR><BS>}<Esc>ko
 :inoremap ( ()<Esc>i
 :inoremap " ""<Esc>i
+:inoremap ' ''<Esc>i
 
 " For web-dev
 :iabbrev </ </<C-X><C-O>
