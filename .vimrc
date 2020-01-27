@@ -51,6 +51,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 :inoremap { {<CR><BS>}<Esc>ko
 :inoremap ( ()<Esc>i
+:inoremap [ []<Esc>i
 :inoremap " ""<Esc>i
 :inoremap ' ''<Esc>i
 
