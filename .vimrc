@@ -16,6 +16,7 @@ set softtabstop=4
 set textwidth=79
 set expandtab
 set tabstop=4
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 syntax on
 
 colorscheme desert
@@ -37,6 +38,7 @@ Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'mattn/emmet-vim'
 Plugin 'dense-analysis/ale'
+Plugin 'Yggdroot/indentLine'
 
 " Plugin to rectify extra folding
 Plugin 'tmhedberg/SimpylFold'
