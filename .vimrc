@@ -38,6 +38,11 @@ Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'mattn/emmet-vim'
 Plugin 'dense-analysis/ale'
+
+" Plugin for colorschemes
+Plugin 'rafi/awesome-vim-colorschemes'
+
+" Plugin for indentation lines
 Plugin 'Yggdroot/indentLine'
 
 " Plugin to rectify extra folding
