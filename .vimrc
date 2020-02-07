@@ -19,10 +19,13 @@ set tabstop=4
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 syntax on
 
-colorscheme desert
-
 set nocompatible              " be iMproved, required
 filetype off                  " required
+
+" For emmet vim plugin
+let g:user_emmet_leader_key=','
+let g:user_emmet_install_global=0
+autocmd FileType html, css EmmetInstall
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -41,6 +44,7 @@ Plugin 'dense-analysis/ale'
 
 " Plugin for colorschemes
 Plugin 'rafi/awesome-vim-colorschemes'
+colorscheme desert
 
 " Plugin for indentation lines
 Plugin 'Yggdroot/indentLine'
